@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <section class="image">
+            <div class="container">
+                <h1 class="text-center text-danger p-5">
+                    Welcome back
+                </h1>
+                <h1 class="text-center">ROAYA DEVELOPMENT</h1>
+                
+
+                <div class="form-groub m-2">
+                    <label>المكان</label>
+                    <input type="text" class="form-control control "id="name">
+                </div>
+                
+                <div class="form-groub m-2">
+                    <label>الحالة</label>
+                    <input type="text" class="form-control control "id="status">
+                </div>
+
+                <div class="form-groub m-2">
+                    <label>الدور</label>
+                    <input type="text" class="form-control control "id="number">
+                </div>
+
+                <div class="form-groub m-2">
+                    <label>المساحة</label>
+                    <input type="number" class="form-control control"id="age">
+                </div>
+
+                <div class="form-groub m-2">
+                    <label>غرف</label>
+                    <input type="number" class="form-control control salary"id="salary">
+                </div>
+
+                <div class="form-groub m-2">
+                    <label >حمام</label>
+                    <input type="number" class="form-control control phone"id="phone">
+                </div>
+	
+                <div class="form-groub m-2">
+                    <label >السعر</label>
+                    <input type="number" class="form-control control phone"id="price">
+                </div>
+
+                <div class="form-groub m-2">
+                    <label >رقم الفون</label>
+                    <input type="number" class="form-control control phone"id="phone2">
+                </div>
+
+                <div class="text-center">
+                <button class="btn btn-add m-4 mt-5" id="btn">Save Data</button>
+                </div>
+                <div class="clearfix"></div>
+
+                <div class="d-flex justify-content-center">
+                <input type="text" placeholder="Search by name" class="form-control m-4 w-75 " id="search" onkeyup="search(this.value)">
+                </div>
+
+                <table class="table-bordered text-center w-75 text-white m-auto mt-5 ">
+                    <thead>
+                        
+                        <th>المكان</th>
+                        <th>الحالة</th>
+                        <th>الدور</th>
+                        <th>المساحة</th>
+                        <th>عدد الغرف</th>
+                        <th>الحمامات</th>
+                        <th>رقم الفون</th>
+                        <th>السعر</th>
+                        <th>Delete User</th>
+                        <th>Update User</th>
+
+                    </thead>
+
+                    <tbody id="tbody">
+                        
+
+                    </tbody>
+                </table>
+                
+                <div class="m-5 text-dark">.</div>
+
+            </div>
+
+           
+        </section>
+
+
+
+
+
+ 
+
+        <script src="./main.js"></script>
+    </body>
+</html>

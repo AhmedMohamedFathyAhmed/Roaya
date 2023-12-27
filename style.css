@@ -1,0 +1,82 @@
+.image{
+    background-image: url(./hg.jpg);
+	background-size: 100% 100%;
+}
+.container{
+    color: white;
+}
+
+.btn-info{
+    background-color: #337AB7;
+    text-align: center;
+    
+}
+
+.btn-add{
+	background-color: #5CB85C;
+}
+.parent{
+	          
+	height:600px;
+	background-color:black;
+    display: flex;	
+    justify-content: center;
+    align-items: center;
+    width: 100%px;
+
+}
+
+label{
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	font-size: larger;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.form-control{
+	width: 60%;
+	margin: auto;
+}
+
+.child{
+	width:500px;		 
+	height:300px;
+	font-size:50;	
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+	
+}
+
+
+
+.child1{
+	background-color:green;
+	order:0;      
+                  
+}						
+ 						
+.child2{
+	background-color:red;
+	order:1;
+}
+
+.child3{
+	background-color:rosybrown;
+	order:0;
+}
+
+.child4{
+	background-color:seagreen;
+	order:3;
+}
+
+.child5{
+	background-color:tomato;
+	order:0;
+}
+ 
